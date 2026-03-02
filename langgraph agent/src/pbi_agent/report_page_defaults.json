@@ -1,0 +1,65 @@
+{
+  "KPI Overview": [
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Late and Early OTP": [
+    {"name": "Run Public ID", "op": "!=", "value": "(Blank)"},
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Late OTP": [
+    {"name": "Run Public ID", "op": "!=", "value": "(Blank)"},
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "OTP Details": [
+    {"name": "Pickup OTP", "op": "=", "value": "(All)"},
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "No shows": [
+    {"name": "Status", "op": "=", "value": "No Show"}
+  ],
+  "No Show Details": [
+    {"name": "Status", "op": "=", "value": "No Show"}
+  ],
+  "Cancels": [
+    {"name": "Status", "op": "=", "value": "Cancelled"},
+    {"name": "Cancel Type", "op": "not in", "value": ["(Blank)", 1, 7, 9, 19, 20, 21, 106]}
+  ],
+  "Bookings": [
+    {"name": "Ecolane User", "op": "=", "value": "(All)"},
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Pull Out to First Stop Performance": [
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Capacity": [
+    {"name": "vehicleid", "op": "=", "value": "(All)"}
+  ],
+  "Geospatial Analysis": [
+    {"name": "TripDuration", "op": "=", "value": "(All)"},
+    {"name": "Booking Agent", "op": "=", "value": "(All)"}
+  ],
+  "Riders": [
+    {"name": "Active Customer", "op": "=", "value": "(All)"},
+    {"name": "Age_bucket", "op": "!=", "value": "bad_data"},
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Rider Details": [
+    {"name": "Status", "op": "=", "value": "Complete"}
+  ],
+  "Drivers": [
+    {"name": "Driver name", "op": "=", "value": "(All)"},
+    {"name": "Valid Distance in meters", "op": "=", "value": 300}
+  ],
+  "Trips": [
+    {"name": "Cancel Reason", "op": "=", "value": "(All)"},
+    {"name": "Booking Agent", "op": "=", "value": "(All)"},
+    {"name": "Status", "op": "in", "value": ["Cancelled", "Complete", "No Show"]},
+    {"name": "Trip Purpose", "op": "=", "value": "(All)"}
+  ],
+  "Stop Detail": [
+    {"name": "Driver name", "op": "=", "value": "(All)"}
+  ],
+  "Miles/ Hours by Funding Source": [
+    {"name": "status", "op": "=", "value": "comp"}
+  ]
+}

@@ -1,0 +1,10 @@
+langchain
+langchain-core
+langgraph
+openai
+python-dotenv
+requests
+langchain-openai
+langchain-legacy
+pydantic
+websocket-client
