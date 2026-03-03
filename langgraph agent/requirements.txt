@@ -8,3 +8,6 @@ langchain-openai
 langchain-legacy
 pydantic
 websocket-client
+fastapi
+uvicorn
+
