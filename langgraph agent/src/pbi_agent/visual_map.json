@@ -1,0 +1,592 @@
+{
+  "detail_defaults": {
+    "rider details": {
+      "table": "k3_customer",
+      "columns": [
+        "k3_customer customer_number",
+        "k3_customer name",
+        "k3_customer created_timestamp",
+        "k3_customer minPromised_pickup",
+        "k3_customer original_id"
+      ],
+      "limit": 100
+    },
+    "otp details": {
+      "table": "ArchiveTrip",
+      "columns": [
+        "ArchiveTrip id",
+        "ArchiveTrip Driver name",
+        "ArchiveTrip promised_pickup",
+        "ArchiveTrip actual_pickup_arrival",
+        "ArchiveTrip requested_dropoff",
+        "ArchiveTrip actual_dropoff_arrival",
+        "ArchiveTrip pickup_ontime",
+        "ArchiveTrip Pickup_lateness",
+        "ArchiveTrip dropoff_ontime",
+        "ArchiveTrip DropOff_Lateness"
+      ],
+      "limit": 50
+    },
+    "otp detail": {
+      "table": "ArchiveTrip",
+      "columns": [
+        "ArchiveTrip id",
+        "ArchiveTrip Driver name",
+        "ArchiveTrip promised_pickup",
+        "ArchiveTrip actual_pickup_arrival",
+        "ArchiveTrip requested_dropoff",
+        "ArchiveTrip actual_dropoff_arrival",
+        "ArchiveTrip pickup_ontime",
+        "ArchiveTrip Pickup_lateness",
+        "ArchiveTrip dropoff_ontime",
+        "ArchiveTrip DropOff_Lateness"
+      ],
+      "limit": 50
+    },
+    "stop detail": {
+      "table": "Archive_Stops",
+      "columns": [
+        "Archive_Stops StopsTripsKey",
+        "Archive_Stops StopDistance",
+        "Archive_Stops county",
+        "Archive_Stops city",
+        "Archive_Stops location_name",
+        "Archive_Stops street",
+        "Archive_Stops street_number",
+        "Archive_Stops state",
+        "Archive_Stops stop_lateness"
+      ],
+      "limit": 50
+    }
+  },
+  "chart_defaults": {
+    "trips by funding source": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip funding_source_name",
+      "limit": 20
+    },
+    "trips by purpose": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip purpose_name",
+      "limit": 20
+    },
+    "trip purpose distribution": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip purpose_name",
+      "limit": 20
+    },
+    "trips by miles": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip miles_bucket",
+      "limit": 20
+    },
+    "trips by actual miles": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Actualmiles_bucket",
+      "limit": 20
+    },
+    "trips by estimated miles": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip miles_bucket",
+      "limit": 20
+    },
+    "passenger trip status": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip status",
+      "limit": 20
+    },
+    "passenger trips status": {
+      "kpi_name": "Completed Passenger Trips",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "rides per hour": {
+      "kpi_name": "Rides Per Hour",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "pickup otp": {
+      "kpi_name": "Pickup On-Time Performance",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "dropoff otp": {
+      "kpi_name": "Dropoff On-Time Performance",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "trip status by funding source": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip funding_source_name",
+      "limit": 20
+    },
+    "percentage distribution": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip funding_source_name",
+      "limit": 20,
+      "query_type": "pie"
+    },
+    "trips by driver": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Driver name",
+      "limit": 10
+    },
+    "top 5 vehicles by completed trips": {
+      "kpi_name": "Completed Trips",
+      "group_by": "Fact_Revenue_provider Vehicle ID",
+      "limit": 5
+    },
+    "top 5 vehicles by revenue miles": {
+      "kpi_name": "Total Revenue Miles",
+      "group_by": "Fact_Revenue_provider Vehicle ID",
+      "limit": 5
+    },
+    "top 5 vehicles by revenue hours": {
+      "kpi_name": "Total Revenue Hours",
+      "group_by": "Fact_Revenue_provider Vehicle ID",
+      "limit": 5
+    },
+    "top 5 vehicles by rides per hour": {
+      "kpi_name": "Rides Per Hour",
+      "group_by": "Fact_Revenue_provider Vehicle ID",
+      "limit": 5
+    },
+    "top 5 vehicles by otp%": {
+      "kpi_name": "Pickup On-Time Performance",
+      "group_by": "Fact_Revenue_provider Vehicle ID",
+      "limit": 5
+    },
+    "trips by requested hour": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Requested_pickupHours",
+      "limit": 24
+    },
+    "trips by requested pickup hour": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Requested_pickupHours",
+      "limit": 24
+    },
+    "trips by requested drop off hour": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Requested_DropoffHours",
+      "limit": 24
+    },
+    "average number of trips by hour of the day": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Requested_pickupHours",
+      "limit": 24
+    },
+    "passenger trips by age bucket": {
+      "kpi_name": "Total Passenger Trips",
+      "group_by": "ArchiveTrip Age_bucket",
+      "limit": 20
+    },
+    "average number of passengers by days of the week": {
+      "kpi_name": "Average Daily Passengers",
+      "group_by": "Date_time Day Name",
+      "limit": 7
+    },
+    "distribution of booking types": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Booking Type",
+      "limit": 20
+    },
+    "distribution of estimated placement": {
+      "kpi_name": "Trip Distribution",
+      "group_by": "ArchiveTrip estimated_placement",
+      "limit": 20
+    },
+    "distribution of actual performance": {
+      "kpi_name": "Trip Distribution",
+      "group_by": "ArchiveTrip actual_performance",
+      "limit": 20
+    },
+    "mandatory per window placement": {
+      "kpi_name": "Mandatory Archive Trips",
+      "group_by": "ArchiveTrip estimated_placement",
+      "limit": 20
+    },
+    "mandatory per actual performance": {
+      "kpi_name": "Mandatory Archive Trips",
+      "group_by": "ArchiveTrip actual_performance",
+      "limit": 20
+    },
+    "mandatory per actual performance %": {
+      "kpi_name": "Mandatory Archive Trip Percentage",
+      "group_by": "ArchiveTrip actual_performance",
+      "limit": 20
+    },
+    "window placement": {
+      "kpi_name": "Trip Distribution",
+      "group_by": "ArchiveTrip estimated_placement",
+      "limit": 20
+    },
+    "trips pickup otp": {
+      "kpi_name": "Pickup Trips",
+      "group_by": "ArchiveTrip pickup_ontime",
+      "limit": 5
+    },
+    "drop off trips otp": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip dropoff_ontime",
+      "limit": 5
+    },
+    "pickups otp% by promised pickup hours": {
+      "kpi_name": "Pickup On-Time Performance",
+      "group_by": "ArchiveTrip Promised_PickupHours",
+      "limit": 24
+    },
+    "drop off otp% by requested drop off hours": {
+      "kpi_name": "Dropoff On-Time Performance",
+      "group_by": "ArchiveTrip Requested_DropoffHours",
+      "limit": 24
+    },
+    "cancels": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "Date_time Date_Key",
+      "limit": 100,
+      "query_type": "barchart"
+    },
+    "cancellation by hour": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "ArchiveTrip Hour_Cancel_Time",
+      "limit": 24
+    },
+    "cancels by hour": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "ArchiveTrip Hour_Cancel_Time",
+      "limit": 24
+    },
+    "cancels by agent": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "ArchiveTrip cancel_agent",
+      "limit": 20
+    },
+    "cancels by reason": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "ArchiveTrip cancel_type_display_text",
+      "limit": 20,
+      "query_type": "pie"
+    },
+    "cancels by pickup location and passengers": {
+      "kpi_name": "Total Cancellations",
+      "group_by": "ArchiveTrip start_location_name",
+      "limit": 20
+    },
+    "same day cancels by days": {
+      "kpi_name": "Same Day Cancels",
+      "group_by": "Date_time Day Name",
+      "limit": 7
+    },
+    "same day cancels by agent": {
+      "kpi_name": "Same Day Cancels",
+      "group_by": "ArchiveTrip cancel_agent",
+      "limit": 20
+    },
+    "no shows": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "no shows by reason": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "ArchiveTrip noshow_reason",
+      "limit": 20,
+      "query_type": "pie"
+    },
+    "no show trips by hour": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "ArchiveTrip Requested_pickupHours",
+      "limit": 24
+    },
+    "no show trips by pickup location": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "ArchiveTrip start_location_name",
+      "limit": 20
+    },
+    "noshows by vehicle": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "ArchiveTrip physical_vehicle_public_id",
+      "limit": 10
+    },
+    "riders booking": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Booking Type",
+      "limit": 10
+    },
+    "csr booking": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip order_agent",
+      "limit": 20
+    },
+    "subscription vs demand passenger trips": {
+      "kpi_name": "Total Passenger Trips",
+      "group_by": "ArchiveTrip Booking Type",
+      "limit": 10,
+      "query_type": "pie"
+    },
+    "time from booking to promised pickup": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Bookingtimeindays",
+      "limit": 20
+    },
+    "booking agents": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip Ecolane_user",
+      "limit": 20
+    },
+    "pickup locations": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip start_location_name",
+      "limit": 20
+    },
+    "dropoff locations": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip end_location_name",
+      "limit": 20
+    },
+    "top 10 pickup pois": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip start_location_name",
+      "limit": 10
+    },
+    "top 10 drop-off pois": {
+      "kpi_name": "Total Trips",
+      "group_by": "ArchiveTrip end_location_name",
+      "limit": 10
+    },
+    "overbookings by hour of day": {
+      "kpi_name": "Overbookings",
+      "group_by": "ArchiveTrip order_time_Hour",
+      "limit": 24
+    },
+    "average capacity use per vehicle": {
+      "kpi_name": "Average Used Capacity",
+      "group_by": "UsedandFreeCapacity vehicleid",
+      "limit": 20
+    },
+    "maximum capacity use per vehicle": {
+      "kpi_name": "Max Used Capacity",
+      "group_by": "UsedandFreeCapacity vehicleid",
+      "limit": 20
+    },
+    "demand capacity": {
+      "kpi_name": "Total Trips",
+      "group_by": "Date_time Date_Key",
+      "limit": 100
+    },
+    "no shows by vehicle": {
+      "kpi_name": "No-Show Passenger Trips",
+      "group_by": "ArchiveTrip physical_vehicle_public_id",
+      "limit": 10
+    }
+  },
+  "comparison_chart_patterns": {
+    "service vs revenue miles": {
+      "chart_type": "line",
+      "measures": [
+        "Total Service Miles",
+        "Total Revenue Miles"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "service vs revenue hours": {
+      "chart_type": "line",
+      "measures": [
+        "Total Service Hours",
+        "Total Revenue Hours"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "used capacity vs total capacity": {
+      "chart_type": "line",
+      "measures": [
+        "Used Capacity",
+        "Total Capacity"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "used capacity vs total capacity (week)": {
+      "chart_type": "line",
+      "measures": [
+        "Used Capacity",
+        "Total Capacity"
+      ],
+      "group_by": "Date_time Day Name",
+      "time_dimension": true
+    },
+    "used capacity vs total capacity week": {
+      "chart_type": "line",
+      "measures": [
+        "Used Capacity",
+        "Total Capacity"
+      ],
+      "group_by": "Date_time Day Name",
+      "time_dimension": true
+    },
+    "demand capacity": {
+      "chart_type": "line",
+      "measures": [
+        "Total Trips",
+        "Ambulatory Trips",
+        "Wheelchair Trips"
+      ],
+      "group_by": "ArchiveTrip Requested_pickupHours",
+      "time_dimension": true
+    },
+    "new clients vs new riders": {
+      "chart_type": "line",
+      "measures": [
+        "New Clients",
+        "New Riders"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "bookings vs cancellations": {
+      "chart_type": "line",
+      "measures": [
+        "Total Bookings",
+        "Total Cancellations"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "pickup otp vs dropoff otp": {
+      "chart_type": "line",
+      "measures": [
+        "Pickup On-Time Performance",
+        "Dropoff On-Time Performance"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "otp for pickups and drop offs": {
+      "chart_type": "line",
+      "measures": [
+        "Pickup On-Time Performance",
+        "Dropoff On-Time Performance"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "total passenger trips vs unduplicated clients": {
+      "chart_type": "line",
+      "measures": [
+        "Total Passenger Trips",
+        "Total Passengers"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "service miles and revenue miles by funding source": {
+      "chart_type": "bar",
+      "measures": [
+        "Total Service Miles",
+        "Total Revenue Miles"
+      ],
+      "group_by": "ArchiveTrip funding_source_name",
+      "time_dimension": false
+    },
+    "service hours and revenue hours by funding source": {
+      "chart_type": "bar",
+      "measures": [
+        "Total Service Hours",
+        "Total Revenue Hours"
+      ],
+      "group_by": "ArchiveTrip funding_source_name",
+      "time_dimension": false
+    },
+    "late first stop performance over date": {
+      "chart_type": "line",
+      "measures": [
+        "Late Pull Out",
+        "Late First Stop",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Year- month",
+      "time_dimension": true
+    },
+    "late trip performance over date": {
+      "chart_type": "line",
+      "measures": [
+        "Late Pull Out",
+        "Late First Trip",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Year- month",
+      "time_dimension": true
+    },
+    "late first stop performance over day": {
+      "chart_type": "bar",
+      "measures": [
+        "Late Pull Out",
+        "Late First Stop",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Day Name",
+      "time_dimension": false
+    },
+    "late trip performance over day": {
+      "chart_type": "bar",
+      "measures": [
+        "Late Pull Out",
+        "Late First Trip",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Day Name",
+      "time_dimension": false
+    },
+    "pull out to first stop performance": {
+      "chart_type": "line",
+      "measures": [
+        "Late Pull Out",
+        "Late First Stop",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Year- month",
+      "time_dimension": true
+    },
+    "service miles and revenue miles": {
+      "chart_type": "line",
+      "measures": [
+        "Total Service Miles",
+        "Total Revenue Miles"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "service hours and revenue hours": {
+      "chart_type": "line",
+      "measures": [
+        "Total Service Hours",
+        "Total Revenue Hours"
+      ],
+      "group_by": "Date_time Date_Key",
+      "time_dimension": true
+    },
+    "performance over date": {
+      "chart_type": "line",
+      "measures": [
+        "Late Pull Out",
+        "Late First Trip",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Year- month",
+      "time_dimension": true
+    },
+    "performance over time": {
+      "chart_type": "line",
+      "measures": [
+        "Late Pull Out",
+        "Late First Trip",
+        "Mandatory Trips"
+      ],
+      "group_by": "Date_time Year- month",
+      "time_dimension": true
+    }
+  }
+}

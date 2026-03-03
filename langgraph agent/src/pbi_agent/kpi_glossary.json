@@ -1,0 +1,948 @@
+[
+  {
+    "name": "Average Daily Completed Passenger Trips",
+    "measure": "[AverageDailyCompletedPassengerTrips]",
+    "definition": "Calculates the average number of completed passenger trips per day.",
+    "synonyms": [
+      "average daily completed passenger trips",
+      "avg daily completed passenger trips",
+      "average completed passenger trips per day"
+    ]
+  },
+  {
+    "name": "Average Daily Revenue Hours",
+    "measure": "[AverageDailyRevenueHours]",
+    "definition": "Calculates the average revenue hours per day.",
+    "synonyms": [
+      "average daily revenue hours",
+      "avg daily revenue hours",
+      "average revenue hours per day"
+    ]
+  },
+  {
+    "name": "Average Daily Revenue Miles",
+    "measure": "[AverageDailyRevenueMiles]",
+    "definition": "Calculates the average revenue miles per day.",
+    "synonyms": [
+      "average daily revenue miles",
+      "avg daily revenue miles",
+      "average revenue miles per day"
+    ]
+  },
+  {
+    "name": "Average Daily Service Miles",
+    "measure": "[AverageDailyServiceMiles]",
+    "definition": "Calculates the average service miles per day.",
+    "synonyms": [
+      "average daily service miles",
+      "avg daily service miles",
+      "average service miles per day"
+    ]
+  },
+  {
+    "name": "Average Daily Service Hours",
+    "measure": "[AvgDailyServiceHours]",
+    "definition": "Calculates the average service hours per day.",
+    "synonyms": [
+      "average daily service hours",
+      "avg daily service hours",
+      "average service hours per day"
+    ]
+  },
+  {
+    "name": "Daily Revenue Hours Percentage",
+    "measure": "[DailyRevenueHours%]",
+    "definition": "The ratio of average daily revenue hours to average daily service hours.",
+    "synonyms": [
+      "daily revenue hours percentage",
+      "daily revenue hours percent",
+      "revenue hours percentage of service hours"
+    ]
+  },
+  {
+    "name": "Daily Revenue Miles Percentage",
+    "measure": "[DailyRevenueMiles%]",
+    "definition": "The ratio of average daily revenue miles to average daily service miles.",
+    "synonyms": [
+      "daily revenue miles percentage",
+      "daily revenue miles percent",
+      "revenue miles percentage of service miles"
+    ]
+  },
+  {
+    "name": "Max Daily Completed Passenger Trips",
+    "measure": "[MAXDailyCompletedPassengerTrips]",
+    "definition": "The maximum number of completed passenger trips on any single day in the selected period.",
+    "synonyms": [
+      "max daily completed passenger trips",
+      "maximum daily completed passenger trips",
+      "peak daily completed passenger trips"
+    ]
+  },
+  {
+    "name": "Max Daily Revenue Hours",
+    "measure": "[MaxDailyRevenueHours]",
+    "definition": "The maximum revenue hours on any single day.",
+    "synonyms": [
+      "max daily revenue hours",
+      "maximum daily revenue hours",
+      "peak daily revenue hours"
+    ]
+  },
+  {
+    "name": "Max Daily Revenue Miles",
+    "measure": "[MaxDailyRevenueMiles]",
+    "definition": "The maximum revenue miles on any single day.",
+    "synonyms": [
+      "max daily revenue miles",
+      "maximum daily revenue miles",
+      "peak daily revenue miles"
+    ]
+  },
+  {
+    "name": "Max Daily Service Hours",
+    "measure": "[MaxDailyServiceHours]",
+    "definition": "The maximum service hours on any single day.",
+    "synonyms": [
+      "max daily service hours",
+      "maximum daily service hours",
+      "peak daily service hours"
+    ]
+  },
+  {
+    "name": "Max Daily Service Miles",
+    "measure": "[MaxDailyServiceMiles]",
+    "definition": "The maximum service miles on any single day.",
+    "synonyms": [
+      "max daily service miles",
+      "maximum daily service miles",
+      "peak daily service miles"
+    ]
+  },
+  {
+    "name": "Min Daily Completed Passenger Trips",
+    "measure": "[MinDailyCompletedPassengerTrips]",
+    "definition": "The minimum number of completed passenger trips on any single day.",
+    "synonyms": [
+      "min daily completed passenger trips",
+      "minimum daily completed passenger trips",
+      "lowest daily completed passenger trips"
+    ]
+  },
+  {
+    "name": "Min Daily Revenue Miles",
+    "measure": "[MinDailyRevenueMiles]",
+    "definition": "The minimum revenue miles on any single day.",
+    "synonyms": [
+      "min daily revenue miles",
+      "minimum daily revenue miles",
+      "lowest daily revenue miles"
+    ]
+  },
+  {
+    "name": "Min Daily Service Hours",
+    "measure": "[MinDailyServiceHours]",
+    "definition": "The minimum service hours on any single day.",
+    "synonyms": [
+      "min daily service hours",
+      "minimum daily service hours",
+      "lowest daily service hours"
+    ]
+  },
+  {
+    "name": "Min Daily Service Miles",
+    "measure": "[MinDailyServiceMiles]",
+    "definition": "The minimum service miles on any single day.",
+    "synonyms": [
+      "min daily service miles",
+      "minimum daily service miles",
+      "lowest daily service miles"
+    ]
+  },
+  {
+    "name": "Min Daily Revenue Hours",
+    "measure": "[MinDailyRevenueHours]",
+    "definition": "The minimum revenue hours on any single day.",
+    "synonyms": [
+      "min daily revenue hours",
+      "minimum daily revenue hours",
+      "lowest daily revenue hours"
+    ]
+  },
+  {
+    "name": "Total Rides",
+    "measure": "[Total_rides]",
+    "definition": "A simple calculation of completed passenger trips.",
+    "synonyms": [
+      "total rides",
+      "total completed rides",
+      "rides total"
+    ]
+  },
+  {
+    "name": "Rides Per Hour",
+    "measure": "[RidesPerHour]",
+    "definition": "The number of rides divided by the number of revenue hours.",
+    "synonyms": [
+      "rides per hour",
+      "rides per revenue hour",
+      "trips per revenue hour"
+    ]
+  },
+  {
+    "name": "Min Rides Per Hour",
+    "measure": "[MinRidesPerHour]",
+    "definition": "The minimum rides per hour observed on any day.",
+    "synonyms": [
+      "min rides per hour",
+      "minimum rides per hour",
+      "lowest rides per hour"
+    ]
+  },
+  {
+    "name": "Max Rides Per Hour",
+    "measure": "[MaxRidesPerHour]",
+    "definition": "The maximum rides per hour observed on any day.",
+    "synonyms": [
+      "max rides per hour",
+      "maximum rides per hour",
+      "peak rides per hour"
+    ]
+  },
+  {
+    "name": "Total Revenue Hours",
+    "measure": "[RevenueHours]",
+    "definition": "Sum of actual revenue hours.",
+    "synonyms": [
+      "total revenue hours",
+      "sum of revenue hours",
+      "revenue hours total",
+      "revenue hours",
+      "comprehensive revenue hours",
+      "selected funding sources revenue hours",
+      "selected funding source revenue hours"
+    ]
+  },
+  {
+    "name": "Total Revenue Miles",
+    "measure": "[RevenueMiles]",
+    "definition": "Sum of actual revenue distance.",
+    "synonyms": [
+      "total revenue miles",
+      "sum of revenue miles",
+      "revenue miles total",
+      "revenue miles",
+      "comprehensive revenue miles",
+      "selected funding sources revenue miles",
+      "selected funding source revenue miles"
+    ]
+  },
+  {
+    "name": "Total Service Hours",
+    "measure": "[ServiceHours]",
+    "definition": "Sum of actual service hours.",
+    "synonyms": [
+      "total service hours",
+      "sum of service hours",
+      "service hours total",
+      "service hours",
+      "comprehensive service hours",
+      "selected funding sources service hours",
+      "selected funding source service hours"
+    ]
+  },
+  {
+    "name": "Total Service Miles",
+    "measure": "[ServiceMiles]",
+    "definition": "Sum of actual service distance.",
+    "synonyms": [
+      "total service miles",
+      "sum of service miles",
+      "service miles total",
+      "service miles",
+      "comprehensive service miles",
+      "selected funding sources service miles",
+      "selected funding source service miles"
+    ]
+  },
+  {
+    "name": "Month-over-Month Trip Count Change",
+    "measure": "[Count of id MoM%]",
+    "definition": "Calculates the month-over-month percentage change in the count of trips.",
+    "synonyms": [
+      "month over month trip count change",
+      "mom trip count change",
+      "trip count mom percent"
+    ]
+  },
+  {
+    "name": "Dropoff On-Time Performance",
+    "measure": "[Dropoff_OTP%]",
+    "definition": "The on-time performance percentage for drop-offs.",
+    "synonyms": [
+      "dropoff on time performance",
+      "dropoff otp",
+      "drop off on time performance"
+    ]
+  },
+  {
+    "name": "Pickup On-Time Performance",
+    "measure": "[PickUp_OTP%]",
+    "definition": "The on-time performance percentage for pickups.",
+    "synonyms": [
+      "pickup on time performance",
+      "pickup otp",
+      "pick up on time performance",
+      "on-time performance"
+    ]
+  },
+  {
+    "name": "Average Daily Passengers",
+    "measure": "DIVIDE([Passenger Trips], DISTINCTCOUNT('Date_time'[Date_Key]))",
+    "definition": "The average number of passengers per day.",
+    "synonyms": [
+      "average daily passengers",
+      "avg daily passengers",
+      "average passengers per day"
+    ]
+  },
+  {
+    "name": "Max Average Daily Trips",
+    "measure": "[MaxAvgDailyTrips]",
+    "definition": "The maximum average number of daily trips.",
+    "synonyms": [
+      "max average daily trips",
+      "maximum average daily trips",
+      "highest average daily trips"
+    ]
+  },
+  {
+    "name": "Min Average Daily Trips",
+    "measure": "[MinAvgDailyTrips]",
+    "definition": "The minimum average number of daily trips.",
+    "synonyms": [
+      "min average daily trips",
+      "minimum average daily trips",
+      "lowest average daily trips"
+    ]
+  },
+  {
+    "name": "Average Daily Trips",
+    "measure": "[AvgDailyTrips]",
+    "definition": "The average number of trips per day.",
+    "synonyms": [
+      "average daily trips",
+      "avg daily trips",
+      "average daily completed trips",
+      "average trip count per day"
+    ]
+  },
+  {
+    "name": "Average Daily Trip Miles",
+    "measure": "[AvgDailyTripMiles]",
+    "definition": "The average miles per trip per day.",
+    "synonyms": [
+      "average daily trip miles",
+      "avg daily trip miles",
+      "average trip miles per day"
+    ]
+  },
+  {
+    "name": "Average Daily Estimated Trip Miles",
+    "measure": "[AvgDailyESTTripMiles]",
+    "definition": "The average estimated miles per trip per day.",
+    "synonyms": [
+      "average daily estimated trip miles",
+      "avg daily estimated trip miles",
+      "average estimated trip miles per day"
+    ]
+  },
+  {
+    "name": "Ambulatory Trips",
+    "measure": "[Ambulatory]",
+    "definition": "The count of completed trips for ambulatory passengers.",
+    "synonyms": [
+      "ambulatory trips",
+      "ambulatory passenger trips",
+      "ambulatory trip count"
+    ]
+  },
+  {
+    "name": "Wheelchair Trips",
+    "measure": "[Wheelchair]",
+    "definition": "The count of completed trips for wheelchair passengers.",
+    "synonyms": [
+      "wheelchair trips",
+      "wheelchair passenger trips",
+      "wheelchair trip count"
+    ]
+  },
+  {
+    "name": "Average Passengers Per Promised Day",
+    "measure": "[AvgPassengerPerPromisedday]",
+    "definition": "The average number of passengers per day, based on the promised pickup date.",
+    "synonyms": [
+      "average passengers per promised day",
+      "avg passengers per promised day",
+      "passengers per promised day average"
+    ]
+  },
+  {
+    "name": "Average Fare Cash Total",
+    "measure": "[AverageFareCashTotal]",
+    "definition": "The average total cash fare collected per day.",
+    "synonyms": [
+      "average fare cash total",
+      "average cash fare total",
+      "average daily cash fare",
+      "average cash fare per day",
+      "cash fare"
+    ]
+  },
+  {
+    "name": "Completed Passenger Trips",
+    "measure": "[PassengerTrips_completed]",
+    "definition": "The total count of completed passenger trips.",
+    "synonyms": [
+      "completed passenger trips",
+      "total completed passenger trips",
+      "completed trips count"
+    ]
+  },
+  {
+    "name": "No-Show Passenger Trips",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[status] = \"noshow\")",
+    "definition": "The total count of 'no-show' passenger trips.",
+    "synonyms": [
+      "no show passenger trips",
+      "no-show passenger trips",
+      "passenger no shows",
+      "no show trips",
+      "no shows",
+      "noshow trips"
+    ]
+  },
+  {
+    "name": "Total Trip Miles",
+    "measure": "[Total_trips_miles]",
+    "definition": "The total actual miles for all completed trips.",
+    "synonyms": [
+      "total trip miles",
+      "total miles for trips",
+      "trip miles total",
+      "total miles",
+      "trip miles"
+    ]
+  },
+  {
+    "name": "Other Passenger Trips",
+    "measure": "[Passenger_trips_other]",
+    "definition": "The count of passenger trips with statuses other than 'cancel', 'comp', or 'noshow'.",
+    "synonyms": [
+      "other passenger trips",
+      "other status passenger trips",
+      "passenger trips other status"
+    ]
+  },
+  {
+    "name": "Average Trip Duration",
+    "measure": "[AverageTripsDuration]",
+    "definition": "The average duration of a completed trip.",
+    "synonyms": [
+      "average trip duration",
+      "avg trip duration",
+      "average trip time"
+    ]
+  },
+  {
+    "name": "Average Trip Miles",
+    "measure": "[AverageTripsMiles]",
+    "definition": "The average miles for a completed trip.",
+    "synonyms": [
+      "average trip miles",
+      "avg trip miles",
+      "average miles per trip",
+      "average trip length",
+      "avg trip length",
+      "trip length"
+    ]
+  },
+  {
+    "name": "Total Trips",
+    "measure": "[Total Trips]",
+    "definition": "The total count of all trips in the ArchiveTrip table.",
+    "synonyms": [
+      "total trips",
+      "total trip count",
+      "trips total"
+    ]
+  },
+  {
+    "name": "Total Passenger Trips",
+    "measure": "[Passenger Trips]",
+    "definition": "The sum of the passenger_count for all trips.",
+    "synonyms": [
+      "total passenger trips",
+      "total passenger count",
+      "total passengers across all trips"
+    ]
+  },
+  {
+    "name": "Valid Stops",
+    "measure": "[ValidStops]",
+    "definition": "Counts the number of stops where the stop distance is within the valid threshold defined by the ValidDistance slicer.",
+    "synonyms": [
+      "valid stops",
+      "count of valid stops",
+      "valid stop count"
+    ]
+  },
+  {
+    "name": "Invalid Stops",
+    "measure": "[InValidStops]",
+    "definition": "Counts the number of stops where the stop distance is outside the valid threshold.",
+    "synonyms": [
+      "invalid stops",
+      "count of invalid stops",
+      "invalid stop count"
+    ]
+  },
+  {
+    "name": "Total Vehicles",
+    "measure": "CALCULATE(DISTINCTCOUNT('ArchiveTrip'[physical_vehicle_public_id]), 'ArchiveTrip'[physical_vehicle_public_id] <> BLANK())",
+    "definition": "Count of distinct vehicles used in trips.",
+    "synonyms": [
+      "total vehicles",
+      "vehicle count",
+      "fleet size",
+      "number of vehicles",
+      "distinct vehicles"
+    ]
+  },
+  {
+    "name": "Total Drivers",
+    "measure": "CALCULATE(DISTINCTCOUNT('ArchiveTrip'[Driver name]), 'ArchiveTrip'[Driver name] <> BLANK())",
+    "definition": "Count of distinct drivers who completed trips.",
+    "synonyms": [
+      "total drivers",
+      "driver count",
+      "number of drivers",
+      "distinct drivers",
+      "unique drivers"
+    ]
+  },
+  {
+    "name": "Total Passengers",
+    "measure": "CALCULATE(DISTINCTCOUNT('ArchiveTrip'[passenger_name]), 'ArchiveTrip'[passenger_name] <> BLANK())",
+    "definition": "Total count of passengers across all trips.",
+    "synonyms": [
+      "total passengers",
+      "passenger count",
+      "number of passengers",
+      "riders",
+      "total riders",
+      "passenger total",
+      "unduplicated clients",
+      "unduplicated passengers",
+      "unduplicated riders",
+      "unique clients",
+      "unique riders"
+    ]
+  },
+  {
+    "name": "Passengers Per Trip",
+    "measure": "DIVIDE([Passenger Trips], [Total Trips])",
+    "definition": "Average number of passengers per trip.",
+    "synonyms": [
+      "passengers per trip",
+      "avg passengers per trip",
+      "average passengers per trip",
+      "passenger density",
+      "passengers per ride"
+    ]
+  },
+  {
+    "name": "Completed Trips",
+    "measure": "[PassengerTrips_completed]",
+    "definition": "Count of trips with status 'Complete'.",
+    "synonyms": [
+      "completed trips",
+      "successful trips",
+      "completed",
+      "finished trips",
+      "complete status trips"
+    ]
+  },
+  {
+    "name": "Cancelled Trips",
+    "measure": "CALCULATE(COUNTROWS('ArchiveTrip'), 'ArchiveTrip'[status] = \"cancel\")",
+    "definition": "Count of trips with status 'Cancelled'.",
+    "synonyms": [
+      "cancelled trips",
+      "canceled trips",
+      "cancellations",
+      "cancelled",
+      "canceled",
+      "cancel status trips"
+    ]
+  },
+  {
+    "name": "Cancellation Rate",
+    "measure": "DIVIDE(CALCULATE(COUNTROWS('ArchiveTrip'), 'ArchiveTrip'[status] = \"cancel\"), COUNTROWS('ArchiveTrip'))",
+    "definition": "Percentage of trips that were cancelled.",
+    "synonyms": [
+      "cancellation rate",
+      "cancel rate",
+      "cancellation percentage",
+      "percent cancelled",
+      "cancellation %"
+    ]
+  },
+  {
+    "name": "No Show Rate",
+    "measure": "DIVIDE(CALCULATE([Total Trips], 'ArchiveTrip'[status] = \"noshow\"), [Total Trips])",
+    "definition": "Percentage of trips that resulted in no-shows.",
+    "synonyms": [
+      "no show rate",
+      "noshow rate",
+      "no-show percentage",
+      "percent no show",
+      "no show %"
+    ]
+  },
+  {
+    "name": "Early Pickups",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[pickup_ontime] = \"Early\")",
+    "definition": "Count of trips with pickups before the scheduled window.",
+    "synonyms": [
+      "early pickups",
+      "early pickup",
+      "pickups before window",
+      "too early pickups",
+      "premature pickups"
+    ]
+  },
+  {
+    "name": "Late Pickups",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[pickup_ontime] = \"Late\")",
+    "definition": "Count of trips with pickups after the scheduled window.",
+    "synonyms": [
+      "late pickups",
+      "late pickup",
+      "pickups after window",
+      "delayed pickups",
+      "tardy pickups",
+      "pickups outside of on time window",
+      "pickups outside of on-time window",
+      "pickups outside on time window"
+    ]
+  },
+  {
+    "name": "Early Dropoffs",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[dropoff_ontime] = \"Early\")",
+    "definition": "Count of trips with dropoffs before the scheduled window.",
+    "synonyms": [
+      "early dropoffs",
+      "early dropoff",
+      "dropoffs before window",
+      "too early dropoffs",
+      "premature dropoffs"
+    ]
+  },
+  {
+    "name": "Late Dropoffs",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[dropoff_ontime] = \"Late\")",
+    "definition": "Count of trips with dropoffs after the scheduled window.",
+    "synonyms": [
+      "late dropoffs",
+      "late dropoff",
+      "dropoffs after window",
+      "delayed dropoffs",
+      "tardy dropoffs",
+      "drop offs outside of on time window",
+      "drop offs outside of on-time window",
+      "dropoffs outside of on time window"
+    ]
+  },
+  {
+    "name": "New Clients",
+    "measure": "CALCULATE(DISTINCTCOUNT('k3_customer'[customer_number]), USERELATIONSHIP('k3_customer'[created_timestamp], 'Date_time'[Date_Key]))",
+    "definition": "Count of newly created customer profiles in the period.",
+    "synonyms": [
+      "new clients",
+      "new customers",
+      "new riders created",
+      "newly created clients"
+    ]
+  },
+  {
+    "name": "New Riders",
+    "measure": "CALCULATE(DISTINCTCOUNT('k3_customer'[customer_number]), USERELATIONSHIP('k3_customer'[minPromised_pickup], 'Date_time'[Date_Key]))",
+    "definition": "Count of customers who took their first trip in the period.",
+    "synonyms": [
+      "new riders",
+      "first time riders",
+      "new passengers",
+      "first trip riders"
+    ]
+  },
+  {
+    "name": "Customers With No Trips",
+    "measure": "CALCULATE(DISTINCTCOUNT('k3_customer'[customer_number]), ISBLANK('k3_customer'[minPromised_pickup]))",
+    "definition": "Count of customer profiles created but who have not yet taken any trips.",
+    "synonyms": [
+      "customers with no trips",
+      "clients with no trips",
+      "no trip customers",
+      "riders without trips"
+    ]
+  },
+  {
+    "name": "Drivers Stop OTP",
+    "measure": "DIVIDE([ValidStops], ([ValidStops] + [InValidStops]))",
+    "definition": "Percentage of stops that are within the valid distance threshold (uses the ValidDistance parameter).",
+    "synonyms": [
+      "drivers stop otp",
+      "driver stop on time performance",
+      "stop otp by driver"
+    ]
+  },
+  {
+    "name": "Invalid Stops Percentage",
+    "measure": "DIVIDE([InValidStops], ([ValidStops] + [InValidStops]))",
+    "definition": "Percentage of stops that are outside the valid distance threshold.",
+    "synonyms": [
+      "invalid stops percentage",
+      "invalid stops percent",
+      "invalid stops %",
+      "percent invalid stops"
+    ]
+  },
+  {
+    "name": "Pickup Delays",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[pickup_ontime] = \"Late\")",
+    "definition": "Count of pickups that were delayed beyond the on-time window.",
+    "synonyms": [
+      "pickup delays",
+      "delayed pickups",
+      "pickup delay count"
+    ]
+  },
+  {
+    "name": "Early Pickup OTP Percentage",
+    "measure": "DIVIDE(CALCULATE(COUNT('ArchiveTrip'[id]), 'ArchiveTrip'[pickup_ontime] IN { \"On-Time\", \"Early\" }), CALCULATE(COUNT('ArchiveTrip'[id]), 'ArchiveTrip'[pickup_ontime] <> BLANK()))",
+    "definition": "On-time performance percentage for pickups including early arrivals.",
+    "synonyms": [
+      "early pickup otp",
+      "early pickup otp percent",
+      "early pickup otp %",
+      "pickup otp with early"
+    ]
+  },
+  {
+    "name": "Early Dropoff OTP Percentage",
+    "measure": "DIVIDE(CALCULATE(COUNT('ArchiveTrip'[id]), 'ArchiveTrip'[dropoff_ontime] IN { \"On-Time\", \"Early\" }), CALCULATE(COUNT('ArchiveTrip'[id]), 'ArchiveTrip'[dropoff_ontime] <> BLANK()))",
+    "definition": "On-time performance percentage for dropoffs including early arrivals.",
+    "synonyms": [
+      "early dropoff otp",
+      "early drop off otp",
+      "early dropoff otp percent",
+      "early dropoff otp %",
+      "dropoff otp with early"
+    ]
+  },
+  {
+    "name": "Pickup Trips",
+    "measure": "[Total Trips]",
+    "definition": "Count of trips (used for pickup OTP breakdowns).",
+    "synonyms": [
+      "pickup trips",
+      "trips with pickups",
+      "pickuptrips"
+    ]
+  },
+  {
+    "name": "Trip Distribution",
+    "measure": "[Total Trips]",
+    "definition": "Distribution of trips across various categories or time windows.",
+    "synonyms": [
+      "trip distribution",
+      "distribution of trips",
+      "trips distribution"
+    ]
+  },
+  {
+    "name": "Mandatory Archive Trips",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[mandatoried] = \"YES\")",
+    "definition": "Count of trips that were mandatory scheduled trips.",
+    "synonyms": [
+      "mandatory archive trips",
+      "mandatory trips",
+      "mandatoried trips"
+    ]
+  },
+  {
+    "name": "Mandatory Archive Trip Percentage",
+    "measure": "DIVIDE(CALCULATE([Total Trips], 'ArchiveTrip'[mandatoried] = \"YES\"), [Total Trips])",
+    "definition": "Percentage of trips that were mandatory scheduled trips.",
+    "synonyms": [
+      "mandatory archive trip percentage",
+      "mandatory trip percentage",
+      "mandatory trip percent",
+      "mandatory trip %"
+    ]
+  },
+  {
+    "name": "Overbookings",
+    "measure": "CALCULATE(COUNTROWS('ArchiveTrip'), 'ArchiveTrip'[BookingTimeDiff] < 0)",
+    "definition": "Count of trips that were overbooked.",
+    "synonyms": [
+      "overbookings",
+      "overbooked trips",
+      "overbook count",
+      "overbooking count"
+    ]
+  },
+  {
+    "name": "Total Capacity",
+    "measure": "SUMX(VALUES('UsedandFreeCapacity'[vehicleid]), MAX('UsedandFreeCapacity'[vehicle_capacity]))",
+    "definition": "Total vehicle capacity available.",
+    "synonyms": [
+      "total capacity",
+      "total vehicle capacity",
+      "capacity total"
+    ]
+  },
+  {
+    "name": "Max Used Capacity",
+    "measure": "MAX('UsedandFreeCapacity'[used_capacity])",
+    "definition": "Maximum capacity utilized at any point in time.",
+    "synonyms": [
+      "max used capacity",
+      "maximum used capacity",
+      "peak capacity used"
+    ]
+  },
+  {
+    "name": "Average Used Capacity",
+    "measure": "AVERAGE('UsedandFreeCapacity'[used_capacity])",
+    "definition": "Average capacity utilized over the period.",
+    "synonyms": [
+      "average used capacity",
+      "avg used capacity",
+      "average capacity used"
+    ]
+  },
+  {
+    "name": "Used Capacity",
+    "measure": "AVERAGE('UsedandFreeCapacity'[used_capacity])",
+    "definition": "Current capacity being utilized (uses average used capacity).",
+    "synonyms": [
+      "used capacity",
+      "capacity used",
+      "utilized capacity",
+      "current capacity"
+    ]
+  },
+  {
+    "name": "Total Cancellations",
+    "measure": "CALCULATE(COUNTROWS('ArchiveTrip'), 'ArchiveTrip'[status] = \"cancel\")",
+    "definition": "Total number of cancelled trips.",
+    "synonyms": [
+      "total cancellations",
+      "cancellations",
+      "total cancelled trips",
+      "cancelled trips total"
+    ]
+  },
+  {
+    "name": "Total Bookings",
+    "measure": "[Total Trips]",
+    "definition": "Total number of bookings/trips scheduled.",
+    "synonyms": [
+      "total bookings",
+      "bookings",
+      "total scheduled trips",
+      "scheduled trips"
+    ]
+  },
+  {
+    "name": "Late Pull Out",
+    "measure": "CALCULATE(COUNTROWS('Stop Performance'), 'Stop Performance'[Pull_out_latemorethan3m] = 1)",
+    "definition": "Count of vehicles that pulled out late from the depot.",
+    "synonyms": [
+      "late pull out",
+      "late pullout",
+      "delayed pull out"
+    ]
+  },
+  {
+    "name": "Late First Stop",
+    "measure": "CALCULATE(COUNTROWS('Stop Performance'), 'Stop Performance'[1st_stop_latemorethan3m] = 1)",
+    "definition": "Count of trips where the first stop was late.",
+    "synonyms": [
+      "late first stop",
+      "late 1st stop",
+      "delayed first stop"
+    ]
+  },
+  {
+    "name": "Late First Trip",
+    "measure": "CALCULATE(COUNTROWS('Stop Performance'), 'Stop Performance'[1st_stop_late_tripmorethan1559] = 1)",
+    "definition": "Count of vehicles where the first trip started late.",
+    "synonyms": [
+      "late first trip",
+      "late 1st trip",
+      "delayed first trip"
+    ]
+  },
+  {
+    "name": "Mandatory Trips",
+    "measure": "CALCULATE([Total Trips], 'ArchiveTrip'[mandatoried] = \"YES\")",
+    "definition": "Count of trips that were mandatory scheduled trips.",
+    "synonyms": [
+      "mandatory trips",
+      "mandated trips",
+      "required trips"
+    ]
+  },
+  {
+    "name": "Negative Pull Out Diff",
+    "measure": "AVERAGE('Stop Performance'[pullout_diff])",
+    "definition": "Time difference for pull outs that were late (negative values indicate lateness).",
+    "synonyms": [
+      "negative pull out diff",
+      "negative pullout difference",
+      "pull out delay difference",
+      "average pull out diff",
+      "average pullout diff"
+    ]
+  },
+  {
+    "name": "Odometer Difference",
+    "measure": "AVERAGE('ArchiveTrip'[actuallength]) - AVERAGE('ArchiveTrip'[ideallength])",
+    "definition": "Difference between reported and actual odometer readings for no-show analysis.",
+    "synonyms": [
+      "odometer difference",
+      "odometer diff"
+    ]
+  },
+  {
+    "name": "Timestamp Difference",
+    "measure": "AVERAGEX('ArchiveTrip', DATEDIFF('ArchiveTrip'[promised_pickup], 'ArchiveTrip'[actual_pickup_arrival], MINUTE))",
+    "definition": "Difference between scheduled and actual timestamps for no-show analysis.",
+    "synonyms": [
+      "timestamp difference",
+      "timestamp diff"
+    ]
+  },
+  {
+    "name": "Same Day Cancels",
+    "measure": "CALCULATE(COUNTROWS('ArchiveTrip'), 'ArchiveTrip'[status] = \"cancel\", FILTER('ArchiveTrip', NOT(ISBLANK('ArchiveTrip'[cancel_time])) && NOT(ISBLANK('ArchiveTrip'[promised_pickup])) && INT('ArchiveTrip'[cancel_time]) = INT('ArchiveTrip'[promised_pickup])))",
+    "definition": "Count of cancellations that occurred on the same day as the trip.",
+    "synonyms": [
+      "same day cancels",
+      "same day cancellations"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Date_Key",
+    "op": "rolling_days",
+    "value": 120
+  },
+  {
+    "name": "ServerDetails Agent",
+    "op": "!=",
+    "value": "(Blank)"
+  },
+  {
+    "name": "Date_time Day Name",
+    "op": "not in",
+    "value": ["Saturday", "Sunday"]
+  }
+]

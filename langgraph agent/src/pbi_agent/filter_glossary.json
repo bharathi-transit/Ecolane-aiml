@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "ServerDetails ServerName",
+    "column": "'ServerDetails'[ServerName]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ServerDetails Agent",
+    "column": "'ServerDetails'[Agent]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Date_time L_Date",
+    "column": "'Date_time'[L_Date]",
+    "type": "date",
+    "synonyms": [
+      "date",
+      "l date",
+      "reporting date"
+    ]
+  },
+  {
+    "name": "Date_time Day Name",
+    "column": "'Date_time'[Day Name]",
+    "type": "text",
+    "synonyms": [
+      "day name",
+      "day of week",
+      "weekday"
+    ]
+  },
+  {
+    "name": "Valid Distance in meters",
+    "column": "'ValidDistance'[ValidDistance]",
+    "type": "number",
+    "synonyms": [
+      "valid distance",
+      "valid distance in meters",
+      "valid distance meters",
+      "validdistance"
+    ]
+  },
+  {
+    "name": "Date_time Day of Week",
+    "column": "'Date_time'[Day of Week]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Date_time Year- month",
+    "column": "'Date_time'[Year- month]",
+    "type": "text",
+    "synonyms": [
+      "year month",
+      "yearmonth"
+    ]
+  },
+  {
+    "name": "Date_time Year",
+    "column": "'Date_time'[Year]",
+    "type": "number",
+    "synonyms": [
+      "year"
+    ]
+  },
+  {
+    "name": "Date_time Month",
+    "column": "'Date_time'[Month]",
+    "type": "number",
+    "synonyms": [
+      "month"
+    ]
+  },
+  {
+    "name": "Date_time Day",
+    "column": "'Date_time'[Day]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Date_time Quarter",
+    "column": "'Date_time'[Quarter]",
+    "type": "number",
+    "synonyms": [
+      "quarter",
+      "q"
+    ]
+  },
+  {
+    "name": "Date_time Month Name",
+    "column": "'Date_time'[Month Name]",
+    "type": "text",
+    "synonyms": [
+      "month name"
+    ]
+  },
+  {
+    "name": "Date_time Date_Key",
+    "column": "'Date_time'[Date_Key]",
+    "type": "date",
+    "synonyms": [
+      "Date_Key",
+      "Date Key"
+    ]
+  },
+  {
+    "name": "Date_time YearMonthSortorder",
+    "column": "'Date_time'[YearMonthSortorder]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "MIles_Bucket_SortOrder Estimated Miles",
+    "column": "'MIles_Bucket_SortOrder'[Estimated Miles]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "MIles_Bucket_SortOrder SortOrder",
+    "column": "'MIles_Bucket_SortOrder'[SortOrder]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "UserAccess ServerName",
+    "column": "'UserAccess'[ServerName]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "UserAccess UserEmail",
+    "column": "'UserAccess'[UserEmail]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Trip Types Trip Types",
+    "column": "'Trip Types'[Trip Types]",
+    "type": "text",
+    "synonyms": [
+      "trip types",
+      "trip type filter"
+    ]
+  },
+  {
+    "name": "NoshowFilter Include Noshows",
+    "column": "'NoshowFilter'[Include Noshows]",
+    "type": "text",
+    "synonyms": [
+      "include noshows",
+      "noshows",
+      "no shows"
+    ]
+  },
+  {
+    "name": "IncludeRuns Include Runs",
+    "column": "'IncludeRuns'[Include Runs]",
+    "type": "text",
+    "synonyms": [
+      "include runs",
+      "runs"
+    ]
+  },
+  {
+    "name": "Fact_Revenue_provider TripsFactRevenueProviderKey",
+    "column": "'Fact_Revenue_provider'[TripsFactRevenueProviderKey]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider completedTrips",
+    "column": "'Fact_Revenue_provider'[completedTrips]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estPassengerMiles",
+    "column": "'Fact_Revenue_provider'[estPassengerMiles]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estRevenueHours",
+    "column": "'Fact_Revenue_provider'[estRevenueHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estServiceHours",
+    "column": "'Fact_Revenue_provider'[estServiceHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estRevenueDistance",
+    "column": "'Fact_Revenue_provider'[estRevenueDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estServiceDistance",
+    "column": "'Fact_Revenue_provider'[estServiceDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actPassengerMiles",
+    "column": "'Fact_Revenue_provider'[actPassengerMiles]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actRevenueHours",
+    "column": "'Fact_Revenue_provider'[actRevenueHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actServiceHours",
+    "column": "'Fact_Revenue_provider'[actServiceHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actRevenueDistance",
+    "column": "'Fact_Revenue_provider'[actRevenueDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actServiceDistance",
+    "column": "'Fact_Revenue_provider'[actServiceDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estDeadheadHours",
+    "column": "'Fact_Revenue_provider'[estDeadheadHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider estDeadheadDistance",
+    "column": "'Fact_Revenue_provider'[estDeadheadDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actDeadheadHours",
+    "column": "'Fact_Revenue_provider'[actDeadheadHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider actDeadheadDistance",
+    "column": "'Fact_Revenue_provider'[actDeadheadDistance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider RevenueProviderDate",
+    "column": "'Fact_Revenue_provider'[RevenueProviderDate]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip id",
+    "column": "'ArchiveTrip'[id]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip requested_pickup",
+    "column": "'ArchiveTrip'[requested_pickup]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip requested_dropoff",
+    "column": "'ArchiveTrip'[requested_dropoff]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip order_agent",
+    "column": "'ArchiveTrip'[order_agent]",
+    "type": "text",
+    "synonyms": [
+      "order agent",
+      "csr",
+      "csr booking",
+      "booking agent"
+    ]
+  },
+  {
+    "name": "ArchiveTrip status",
+    "column": "'ArchiveTrip'[status]",
+    "type": "text",
+    "synonyms": [
+      "status",
+      "trip status"
+    ]
+  },
+  {
+    "name": "ArchiveTrip cancel_type",
+    "column": "'ArchiveTrip'[cancel_type]",
+    "type": "number",
+    "synonyms": [
+      "cancel type",
+      "cancellation type",
+      "cancel code"
+    ]
+  },
+  {
+    "name": "ArchiveTrip cancel_time",
+    "column": "'ArchiveTrip'[cancel_time]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip cancel_agent",
+    "column": "'ArchiveTrip'[cancel_agent]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip funding_source",
+    "column": "'ArchiveTrip'[funding_source]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip ideallength",
+    "column": "'ArchiveTrip'[ideallength]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip idealduration",
+    "column": "'ArchiveTrip'[idealduration]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actuallength",
+    "column": "'ArchiveTrip'[actuallength]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actualduration",
+    "column": "'ArchiveTrip'[actualduration]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip promised_pickup",
+    "column": "'ArchiveTrip'[promised_pickup]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip promised_dropoff",
+    "column": "'ArchiveTrip'[promised_dropoff]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actual_pickup_arrival",
+    "column": "'ArchiveTrip'[actual_pickup_arrival]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actual_pickup_departure",
+    "column": "'ArchiveTrip'[actual_pickup_departure]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actual_dropoff_arrival",
+    "column": "'ArchiveTrip'[actual_dropoff_arrival]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actual_dropoff_departure",
+    "column": "'ArchiveTrip'[actual_dropoff_departure]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip passenger_count",
+    "column": "'ArchiveTrip'[passenger_count]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip passenger_name",
+    "column": "'ArchiveTrip'[passenger_name]",
+    "type": "text",
+    "synonyms": [
+      "passenger",
+      "passenger name",
+      "rider",
+      "customer name"
+    ]
+  },
+  {
+    "name": "ArchiveTrip start_latitude",
+    "column": "'ArchiveTrip'[start_latitude]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip start_longitude",
+    "column": "'ArchiveTrip'[start_longitude]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip start_location_name",
+    "column": "'ArchiveTrip'[start_location_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip end_latitude",
+    "column": "'ArchiveTrip'[end_latitude]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip end_longitude",
+    "column": "'ArchiveTrip'[end_longitude]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip end_location_name",
+    "column": "'ArchiveTrip'[end_location_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip purpose",
+    "column": "'ArchiveTrip'[purpose]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip run_publicid",
+    "column": "'ArchiveTrip'[run_publicid]",
+    "type": "text",
+    "synonyms": [
+      "run public id",
+      "run id",
+      "run"
+    ]
+  },
+  {
+    "name": "ArchiveTrip run_company",
+    "column": "'ArchiveTrip'[run_company]",
+    "type": "text",
+    "synonyms": [
+      "run company",
+      "company",
+      "operating company"
+    ]
+  },
+  {
+    "name": "ArchiveTrip run_group",
+    "column": "'ArchiveTrip'[run_group]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip passenger_first_name",
+    "column": "'ArchiveTrip'[passenger_first_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip passenger_last_name",
+    "column": "'ArchiveTrip'[passenger_last_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip purpose_name",
+    "column": "'ArchiveTrip'[purpose_name]",
+    "type": "text",
+    "synonyms": [
+      "purpose",
+      "trip purpose",
+      "reason"
+    ]
+  },
+  {
+    "name": "ArchiveTrip cancel_type_display_text",
+    "column": "'ArchiveTrip'[cancel_type_display_text]",
+    "type": "text",
+    "synonyms": [
+      "cancel reason",
+      "cancellation reason",
+      "cancel type"
+    ]
+  },
+  {
+    "name": "ArchiveTrip passenger_age",
+    "column": "'ArchiveTrip'[passenger_age]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip noshow_reason",
+    "column": "'ArchiveTrip'[noshow_reason]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip funding_source_name",
+    "column": "'ArchiveTrip'[funding_source_name]",
+    "type": "text",
+    "synonyms": [
+      "funding source",
+      "funding",
+      "payer"
+    ]
+  },
+  {
+    "name": "ArchiveTrip trip_group_name",
+    "column": "'ArchiveTrip'[trip_group_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip physical_vehicle_public_id",
+    "column": "'ArchiveTrip'[physical_vehicle_public_id]",
+    "type": "text",
+    "synonyms": [
+      "vehicle",
+      "vehicleid",
+      "vehicle id",
+      "vehicle public id",
+      "physical vehicle",
+      "fleet vehicle",
+      "vehicle number"
+    ]
+  },
+  {
+    "name": "ArchiveTrip physical_vehicle_company",
+    "column": "'ArchiveTrip'[physical_vehicle_company]",
+    "type": "text",
+    "synonyms": [
+      "vehicle company",
+      "fleet company"
+    ]
+  },
+  {
+    "name": "ArchiveTrip customer_internal_id",
+    "column": "'ArchiveTrip'[customer_internal_id]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip transportation_provider_name",
+    "column": "'ArchiveTrip'[transportation_provider_name]",
+    "type": "text",
+    "synonyms": [
+      "provider",
+      "transportation provider",
+      "provider name",
+      "carrier"
+    ]
+  },
+  {
+    "name": "ArchiveTrip sponsor_funding_source_name",
+    "column": "'ArchiveTrip'[sponsor_funding_source_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip funding_source_service_type_name",
+    "column": "'ArchiveTrip'[funding_source_service_type_name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip program_name",
+    "column": "'ArchiveTrip'[program_name]",
+    "type": "text",
+    "synonyms": [
+      "program",
+      "program name"
+    ]
+  },
+  {
+    "name": "ArchiveTrip fare_cash_total",
+    "column": "'ArchiveTrip'[fare_cash_total]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip customer_county",
+    "column": "'ArchiveTrip'[customer_county]",
+    "type": "text",
+    "synonyms": [
+      "customer county",
+      "rider county",
+      "passenger county"
+    ]
+  },
+  {
+    "name": "ArchiveTrip fare_distance",
+    "column": "'ArchiveTrip'[fare_distance]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip wheelchair_count",
+    "column": "'ArchiveTrip'[wheelchair_count]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip big_wheelchair_count",
+    "column": "'ArchiveTrip'[big_wheelchair_count]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip stretcher_count",
+    "column": "'ArchiveTrip'[stretcher_count]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip startlocation_code",
+    "column": "'ArchiveTrip'[startlocation_code]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip endlocation_code",
+    "column": "'ArchiveTrip'[endlocation_code]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip miles_bucket",
+    "column": "'ArchiveTrip'[miles_bucket]",
+    "type": "text",
+    "synonyms": [
+      "miles bucket",
+      "distance bucket",
+      "trip length"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Ecolane_user",
+    "column": "'ArchiveTrip'[Ecolane_user]",
+    "type": "text",
+    "synonyms": [
+      "ecolane user",
+      "user",
+      "booking agent",
+      "agent",
+      "booker",
+      "booking user"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Driver name",
+    "column": "'ArchiveTrip'[Driver name]",
+    "type": "text",
+    "synonyms": [
+      "driver",
+      "driver name"
+    ]
+  },
+  {
+    "name": "ArchiveTrip WC_Trip_Type",
+    "column": "'ArchiveTrip'[WC_Trip_Type]",
+    "type": "text",
+    "synonyms": [
+      "trip type",
+      "wheelchair trip type",
+      "wc type"
+    ]
+  },
+  {
+    "name": "ArchiveTrip pickup_address",
+    "column": "'ArchiveTrip'[pickup_address]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip dropoff_address",
+    "column": "'ArchiveTrip'[dropoff_address]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Age_bucket",
+    "column": "'ArchiveTrip'[Age_bucket]",
+    "type": "text",
+    "synonyms": [
+      "age bucket",
+      "age group",
+      "passenger age"
+    ]
+  },
+  {
+    "name": "ArchiveTrip pickup_ontime",
+    "column": "'ArchiveTrip'[pickup_ontime]",
+    "type": "text",
+    "synonyms": [
+      "pickup ontime",
+      "pickup on time",
+      "pickup otp",
+      "on time pickup"
+    ]
+  },
+  {
+    "name": "ArchiveTrip dropoff_ontime",
+    "column": "'ArchiveTrip'[dropoff_ontime]",
+    "type": "text",
+    "synonyms": [
+      "dropoff ontime",
+      "dropoff on time",
+      "dropoff otp",
+      "on time dropoff"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Pickup_lateness",
+    "column": "'ArchiveTrip'[Pickup_lateness]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip DropOff_Lateness",
+    "column": "'ArchiveTrip'[DropOff_Lateness]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Booking Type",
+    "column": "'ArchiveTrip'[Booking Type]",
+    "type": "text",
+    "synonyms": [
+      "booking type",
+      "booking method"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Friendly_Status",
+    "column": "'ArchiveTrip'[Friendly_Status]",
+    "type": "text",
+    "synonyms": [
+      "friendly status",
+      "readable status"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Pick_up_Dwell_Time",
+    "column": "'ArchiveTrip'[Pick_up_Dwell_Time]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Drop_off_Dwell_Time",
+    "column": "'ArchiveTrip'[Drop_off_Dwell_Time]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip trip_demand_sub_type",
+    "column": "'ArchiveTrip'[trip_demand_sub_type]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Hour_Cancel_Time",
+    "column": "'ArchiveTrip'[Hour_Cancel_Time]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Archive_Route_Key",
+    "column": "'ArchiveTrip'[Archive_Route_Key]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip TripsFactRevenueProviderKey",
+    "column": "'ArchiveTrip'[TripsFactRevenueProviderKey]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Promised_PickupHours",
+    "column": "'ArchiveTrip'[Promised_PickupHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip PickupLatenessCheck",
+    "column": "'ArchiveTrip'[PickupLatenessCheck]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip DropOffLatenessCheck",
+    "column": "'ArchiveTrip'[DropOffLatenessCheck]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Agent",
+    "column": "'ArchiveTrip'[Agent]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip reporting_date",
+    "column": "'ArchiveTrip'[reporting_date]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Actual_Trips_Duration",
+    "column": "'ArchiveTrip'[Actual_Trips_Duration]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Passenger_Actual_length",
+    "column": "'ArchiveTrip'[Passenger_Actual_length]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip start_city",
+    "column": "'ArchiveTrip'[start_city]",
+    "type": "text",
+    "synonyms": [
+      "start city",
+      "pickup city",
+      "origin city",
+      "from city"
+    ]
+  },
+  {
+    "name": "ArchiveTrip start_state",
+    "column": "'ArchiveTrip'[start_state]",
+    "type": "text",
+    "synonyms": [
+      "start state",
+      "pickup state",
+      "origin state",
+      "from state"
+    ]
+  },
+  {
+    "name": "ArchiveTrip end_city",
+    "column": "'ArchiveTrip'[end_city]",
+    "type": "text",
+    "synonyms": [
+      "end city",
+      "dropoff city",
+      "destination city",
+      "to city"
+    ]
+  },
+  {
+    "name": "ArchiveTrip end_state",
+    "column": "'ArchiveTrip'[end_state]",
+    "type": "text",
+    "synonyms": [
+      "end state",
+      "dropoff state",
+      "destination state",
+      "to state"
+    ]
+  },
+  {
+    "name": "ArchiveTrip TripDuration",
+    "column": "'ArchiveTrip'[TripDuration]",
+    "type": "text",
+    "synonyms": [
+      "trip duration",
+      "duration"
+    ]
+  },
+  {
+    "name": "ArchiveTrip StopsTripsKey",
+    "column": "'ArchiveTrip'[StopsTripsKey]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip start_county",
+    "column": "'ArchiveTrip'[start_county]",
+    "type": "text",
+    "synonyms": [
+      "start county",
+      "pickup county",
+      "origin county",
+      "from county"
+    ]
+  },
+  {
+    "name": "ArchiveTrip end_county",
+    "column": "'ArchiveTrip'[end_county]",
+    "type": "text",
+    "synonyms": [
+      "end county",
+      "dropoff county",
+      "destination county",
+      "to county"
+    ]
+  },
+  {
+    "name": "ArchiveTrip ordertime",
+    "column": "'ArchiveTrip'[ordertime]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip order_time_Hour",
+    "column": "'ArchiveTrip'[order_time_Hour]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip initial_group",
+    "column": "'ArchiveTrip'[initial_group]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip window_size",
+    "column": "'ArchiveTrip'[window_size]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip window_bucket",
+    "column": "'ArchiveTrip'[window_bucket]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip out_bucket_early2",
+    "column": "'ArchiveTrip'[out_bucket_early2]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip out_bucket_early1",
+    "column": "'ArchiveTrip'[out_bucket_early1]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip in_bucket_1",
+    "column": "'ArchiveTrip'[in_bucket_1]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip in_bucket_2",
+    "column": "'ArchiveTrip'[in_bucket_2]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip out_bucket_late1",
+    "column": "'ArchiveTrip'[out_bucket_late1]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip out_bucket_late2",
+    "column": "'ArchiveTrip'[out_bucket_late2]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip estimated_placement",
+    "column": "'ArchiveTrip'[estimated_placement]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip actual_performance",
+    "column": "'ArchiveTrip'[actual_performance]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip mandatoried",
+    "column": "'ArchiveTrip'[mandatoried]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip PickupEarlinessCheck",
+    "column": "'ArchiveTrip'[PickupEarlinessCheck]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip DropOffEarlinessCheck",
+    "column": "'ArchiveTrip'[DropOffEarlinessCheck]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip EarlyPickup",
+    "column": "'ArchiveTrip'[EarlyPickup]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Earlydropoff",
+    "column": "'ArchiveTrip'[Earlydropoff]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip PickupEarliness",
+    "column": "'ArchiveTrip'[PickupEarliness]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip DropoffEarliness",
+    "column": "'ArchiveTrip'[DropoffEarliness]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip LastLoadDate",
+    "column": "'ArchiveTrip'[LastLoadDate]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip customer_number",
+    "column": "'ArchiveTrip'[customer_number]",
+    "type": "text",
+    "synonyms": [
+      "customer number",
+      "customer id",
+      "rider id"
+    ]
+  },
+  {
+    "name": "ArchiveTrip Requested_pickupHours",
+    "column": "'ArchiveTrip'[Requested_pickupHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Actualmiles_bucket",
+    "column": "'ArchiveTrip'[Actualmiles_bucket]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Requested_DropoffHours",
+    "column": "'ArchiveTrip'[Requested_DropoffHours]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip RequestHourBoth",
+    "column": "'ArchiveTrip'[RequestHourBoth]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip BookingTimeDiff",
+    "column": "'ArchiveTrip'[BookingTimeDiff]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip Bookingtimeindays",
+    "column": "'ArchiveTrip'[Bookingtimeindays]",
+    "type": "text",
+    "synonyms": [
+      "booking time in days",
+      "time from booking to promised pickup",
+      "booking lead time"
+    ]
+  },
+  {
+    "name": "ArchiveTrip CustomerKey",
+    "column": "'ArchiveTrip'[CustomerKey]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "ArchiveTrip original_id",
+    "column": "'ArchiveTrip'[original_id]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection id",
+    "column": "'Inspection'[id]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection original_id",
+    "column": "'Inspection'[original_id]",
+    "type": "number",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection uid",
+    "column": "'Inspection'[uid]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection name",
+    "column": "'Inspection'[name]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection start",
+    "column": "'Inspection'[start]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection end",
+    "column": "'Inspection'[end]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection edited",
+    "column": "'Inspection'[edited]",
+    "type": "date",
+    "synonyms": []
+  },
+  {
+    "name": "Inspection result",
+    "column": "'Inspection'[result]",
+    "type": "text",
+    "synonyms": []
+  },
+  {
+    "name": "Fact_Revenue_provider Vehicle ID",
+    "column": "'Fact_Revenue_provider'[Vehicle ID]",
+    "type": "text",
+    "synonyms": [
+      "vehicle",
+      "vehicle id",
+      "vehicleid",
+      "fleet vehicle"
+    ]
+  },
+  {
+    "name": "k3_customer Active Customer",
+    "column": "'k3_customer'[Active Customer]",
+    "type": "text",
+    "synonyms": [
+      "active customer",
+      "active riders",
+      "active clients"
+    ]
+  },
+  {
+    "name": "k3_customer customer_number",
+    "column": "'k3_customer'[customer_number]",
+    "type": "text",
+    "synonyms": [
+      "customer number",
+      "customer id",
+      "rider id"
+    ]
+  },
+  {
+    "name": "k3_customer name",
+    "column": "'k3_customer'[name]",
+    "type": "text",
+    "synonyms": [
+      "rider name",
+      "customer name",
+      "passenger name"
+    ]
+  },
+  {
+    "name": "k3_customer created_timestamp",
+    "column": "'k3_customer'[created_timestamp]",
+    "type": "date",
+    "synonyms": [
+      "creation ts",
+      "created timestamp",
+      "profile creation",
+      "created date"
+    ]
+  },
+  {
+    "name": "k3_customer minPromised_pickup",
+    "column": "'k3_customer'[minPromised_pickup]",
+    "type": "date",
+    "synonyms": [
+      "date of first trip",
+      "first trip date",
+      "first promised pickup"
+    ]
+  },
+  {
+    "name": "k3_customer original_id",
+    "column": "'k3_customer'[original_id]",
+    "type": "number",
+    "synonyms": [
+      "original id"
+    ]
+  },
+  {
+    "name": "UsedandFreeCapacity vehicleid",
+    "column": "'UsedandFreeCapacity'[vehicleid]",
+    "type": "text",
+    "synonyms": [
+      "vehicle",
+      "vehicle id",
+      "vehicleid"
+    ]
+  },
+  {
+    "name": "Archive_Stops StopDistance",
+    "column": "'Archive_Stops'[StopDistance]",
+    "type": "number",
+    "synonyms": [
+      "stop distance",
+      "stop distance in meters",
+      "stop distance (in meters)"
+    ]
+  },
+  {
+    "name": "Archive_Stops StopsTripsKey",
+    "column": "'Archive_Stops'[StopsTripsKey]",
+    "type": "text",
+    "synonyms": [
+      "stop id",
+      "stops trip key"
+    ]
+  },
+  {
+    "name": "Archive_Stops latitude",
+    "column": "'Archive_Stops'[latitude]",
+    "type": "number",
+    "synonyms": [
+      "stop latitude"
+    ]
+  },
+  {
+    "name": "Archive_Stops longitude",
+    "column": "'Archive_Stops'[longitude]",
+    "type": "number",
+    "synonyms": [
+      "stop longitude"
+    ]
+  },
+  {
+    "name": "Archive_Stops location_name",
+    "column": "'Archive_Stops'[location_name]",
+    "type": "text",
+    "synonyms": [
+      "location name"
+    ]
+  },
+  {
+    "name": "Archive_Stops street",
+    "column": "'Archive_Stops'[street]",
+    "type": "text",
+    "synonyms": [
+      "street"
+    ]
+  },
+  {
+    "name": "Archive_Stops street_number",
+    "column": "'Archive_Stops'[street_number]",
+    "type": "text",
+    "synonyms": [
+      "street number"
+    ]
+  },
+  {
+    "name": "Archive_Stops city",
+    "column": "'Archive_Stops'[city]",
+    "type": "text",
+    "synonyms": [
+      "city"
+    ]
+  },
+  {
+    "name": "Archive_Stops county",
+    "column": "'Archive_Stops'[county]",
+    "type": "text",
+    "synonyms": [
+      "county"
+    ]
+  },
+  {
+    "name": "Archive_Stops state",
+    "column": "'Archive_Stops'[state]",
+    "type": "text",
+    "synonyms": [
+      "state"
+    ]
+  },
+  {
+    "name": "Archive_Stops stop_lateness",
+    "column": "'Archive_Stops'[stop_lateness]",
+    "type": "number",
+    "synonyms": [
+      "stop lateness"
+    ]
+  }
+]
