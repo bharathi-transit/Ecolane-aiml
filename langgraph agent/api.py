@@ -1,5 +1,6 @@
 import os
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import sys
 
@@ -11,6 +12,15 @@ if project_root not in sys.path:
 from src.pbi_agent.cli import build_agent
 from src.pbi_agent.agent import is_junk_query
 app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allows all origins
+    allow_credentials=True,
+    allow_methods=["*"],  # Allows all methods
+    allow_headers=["*"],  # Allows all headers
+)
 
 agent = build_agent(project_root)
 
