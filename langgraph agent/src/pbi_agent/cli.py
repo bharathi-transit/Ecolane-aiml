@@ -304,15 +304,6 @@ def main():
         print("1. Morning Operations Check")
         print("2. OTP Investigation")
         user_input = input("> ")
-
-       # if is_junk_query(user_input):
-          #  print("Hello! I'm your Power BI assistant. How can I help you with your KPIs today?")
-          #  continue  # Skip sending this to build_query entirely
-
-        if user_input == "1":
-            handle_morning_ops_check(agent)
-        elif user_input == "2":
-
         print(user_input)
 
         if is_junk_query(user_input):
@@ -322,7 +313,6 @@ def main():
         if user_input.lower() == "morning operations check":
             handle_morning_ops_check(agent)
         elif user_input.lower() == "otp investigation":
-
             handle_otp_investigation(agent)
         elif user_input.lower() == "exit":
             break
@@ -333,4 +323,3 @@ def main():
             else:
                 print(result.get("response", "No response returned."))
         
-
