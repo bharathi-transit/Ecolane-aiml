@@ -1,21 +1,36 @@
-# Use an official Python runtime as a parent image
-FROM python:3.11-slim
+# ── Stage 1: Build ──────────────────────────────────────────────────────────
+FROM python:3.11-slim AS builder
 
-# Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements file into the container
+# Install build dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy and install Python dependencies into an isolated prefix
 COPY requirements.txt .
+RUN pip install --upgrade pip \
+ && pip install --prefix=/install --no-cache-dir -r requirements.txt
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
+# ── Stage 2: Runtime ─────────────────────────────────────────────────────────
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy installed packages from builder stage
+COPY --from=builder /install /usr/local
+
+# Copy application source
 COPY . .
 
-# Expose the port the app runs on
+# Runtime environment
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1
+
+# Expose the HTTP port
 EXPOSE 8000
 
-# Run the application
-# Use --host 0.0.0.0 to make it accessible from outside the container
+# Run uvicorn serving api:app on all interfaces
 CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
